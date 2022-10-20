@@ -40,7 +40,6 @@ export class CharacterComponent implements OnInit, OnDestroy {
   listenerData(): void{
     this.subscription = this.store.select('personaje')
       .subscribe(({personaje, loading, error}) => {
-        console.log('Get one personaje ', personaje)
         if (error){
           this.sharedService.showErrorMessage(error)
             .then((val) => {
