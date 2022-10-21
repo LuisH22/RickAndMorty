@@ -4,9 +4,9 @@ import { CharacterComponent } from './components/character/character.component';
 import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'character/:id', component: CharacterComponent },
-  { path: '', pathMatch: 'full', redirectTo: 'home' }
+  { path: '**', pathMatch: 'full', redirectTo: '/' }
 
 ];
 

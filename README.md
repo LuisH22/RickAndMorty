@@ -15,7 +15,7 @@ Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) vers
 
 ## Ejecutar en servidor local de desarrollo
 
-- [Descargar repositorio](https://github.com/LuisH22/RickAndMorty.git) rama master
+- [Descargar repositorio](https://github.com/LuisH22/RickAndMorty.git) 
 - Acceder al repositorio
 - ejecutar comando `npm install` para instalar dependencias del proyecto
 - Ejecutar comando `ng serve -o` para levantar el proyecto en un localhost `http://localhost:4200/` ruta por default.
@@ -24,4 +24,4 @@ Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) vers
 - Ejecutar comando `ng build -c production`
 
 ## Desplegado en Github Pages
-- Acceso a link para visualizar en Github Pages [RickAndMorty Web](https://luish22.github.io/RickAndMorty/home)
+- Acceso a link para visualizar en Github Pages [RickAndMorty Web](https://luish22.github.io/RickAndMorty/)

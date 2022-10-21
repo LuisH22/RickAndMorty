@@ -52,6 +52,8 @@ export class HomeComponent implements OnInit, OnDestroy {
         loading,
         error
       }) => {
+        console.log(page, 
+          totalPages, )
         if(error) this.sharedService.showErrorMessage(error);
         this.lastPage = totalPages;
         this.cargando = loading;
